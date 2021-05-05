@@ -1,0 +1,22 @@
+============================================
+Visitor table query to store visitor detail
+============================================
+
+create table visitor(
+vid int primary key ,
+vname varchar(255),
+email varchar(255),
+address varchar(255),
+contact numeric,
+qualification varchar(255),
+purpose varchar(255),
+vdate DATE);
+
+==============================================
+Admin  table query to store admin detail
+==============================================
+
+create table admin(
+aid int primary key, 
+email varchar(255),
+password varchar(255));
